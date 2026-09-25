@@ -8,7 +8,7 @@ void main() {
     hatBestanden: true,
   );
 
-  teilnehmer = teilnehmer.copyWith(abschlussnote: () => 2);
+  teilnehmer = teilnehmer.copyWith(abschlussnote: () => null);
 
   print(teilnehmer.abschlussnote);
 }
